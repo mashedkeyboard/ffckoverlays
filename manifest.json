@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "ffCK Overlays",
+    "description": "Right-click any overlay to remove it. Inspired by the Chrome extension \"F*ck Overlays\" (https://chrome.google.com/webstore/detail/fck-overlays/ppedokobpbdajgiejhnjfbdjlgobcpkp).",
+    "version": "1.0",
+    "homepage_url": "https://github.com/mashedkeyboard/ffckoverlays",
+	"icons": {
+		"48": "icons/ext-48.png"
+	},
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "menus"
+    ]
+}
